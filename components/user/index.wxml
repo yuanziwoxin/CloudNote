@@ -1,0 +1,4 @@
+<!--components/user/index.wxml-->
+<view class='container' hidden='{{authorized}}'> <!-- 授权了就不再显示授权按钮-->
+  <button bindgetuserinfo='OnGetUserInfoFunc' open-type='{{openType}}'>授权</button>
+</view>

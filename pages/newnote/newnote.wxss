@@ -1,0 +1,47 @@
+/* pages/newnote/newnote.wxss */
+/* .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+} */
+
+.form-box{
+  margin-top: -100rpx; /*原来的值为30rpx*/
+  width: 94%;
+  /* height: 800rpx; */
+  margin-left: 3%;
+}
+
+.title-input{
+  width: 94%;
+  height: 90rpx;
+  border: 1px solid #4169E1;
+  border-radius: 10rpx;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1);
+  font-size: 35rpx;
+  line-height: 90rpx;
+}
+
+.content-input{
+  width: 94%;
+  border:1px solid #4169E1;
+  height: 800rpx;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  font-size: 35rpx;
+}
+
+.form-button{
+  margin-top:23rpx;
+  height: 90rpx;
+  background-color:#4169E1;
+  color: white;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1);
+  font-size: 35rpx;
+  line-height: 90rpx;
+  position: absolute;
+  bottom: 30rpx;
+  width: 90%; /*？？按道理也应该是94%*/
+}
+

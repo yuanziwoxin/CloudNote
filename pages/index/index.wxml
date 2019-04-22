@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="page">
+  <!-- <open-data type='userNickname' open-gid='xxx'></open-data> -->
+  <note-user authorized="{{authorized}}" bind:getuserinfofunc = "onGetUserInfo" open-type="getUserInfo">
+  
+  </note-user>
+  <!-- <text>{{authorized}}</text> -->
+  <view class='page-button new-note' bind:tap="addNote">新增内容</view>
+  <view class='page-button show-list' bind:tap='showList'>查看列表</view>
+</view>

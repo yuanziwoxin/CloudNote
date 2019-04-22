@@ -1,0 +1,20 @@
+/**index.wxss**/
+.page-button{
+  width: 98%;    /* 按钮宽度占页面宽度的比例*/
+  margin-left: 1%;  
+  margin-top: 30rpx;
+  background-color:#4169E1;
+  color: white;
+  height: 150rpx;  /* 按钮高度*/
+  text-align: center; /* 按钮文本居中显示*/
+  line-height: 150rpx;
+  border-radius: 30rpx;  /* 将按钮设置为圆角*/
+}
+
+.new-note{
+  background-color: #4169E1; 
+}
+
+.show-list{
+  background-color: #4169E1;
+}

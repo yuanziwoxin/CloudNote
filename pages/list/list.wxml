@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+<view class='container'>
+  <view wx:for="{{noteList}}" wx:key="{{index}}" class='list-item'>
+    <view class='list-name' data-sqlid='{{item.id}}' data-name='{{item.name}}' bindtap='showNoteItem'>{{item.name}}</view>
+    <view class='list-btn' data-txaddress='{{item.txaddress}}' data-index='{{index}}' bindtap='viewState'>{{item.text}}</view>
+  </view>
+</view>

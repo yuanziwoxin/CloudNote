@@ -1,0 +1,10 @@
+<!--pages/details/details.wxml-->
+<view class='container'>
+  <view class='form-box'>
+    <form bindsubmit='submit'>
+      <input class='title-input' placeholder='请输入标题' name='title' value='{{name}}'/>
+      <textarea class='content-input' placeholder='请输入内容' name='content' value='{{content}}'/>
+      <button class='form-button' form-type='submit'>修改</button>
+    </form>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/details/details",
+    "pages/list/list",
+    "pages/newnote/newnote"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169E1",
+    "navigationBarTitleText": "CloudNote",
+    "navigationBarTextStyle": "white"
+  }
+}

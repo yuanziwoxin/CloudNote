@@ -1,0 +1,28 @@
+/* pages/list/list.wxss */
+.list-item{
+  width: 96%;
+  margin-left: 2%;
+  background-color:#4169E1;
+  overflow: hidden;
+  margin-top:10rpx;  
+}
+
+.list-name{
+  width: 80%;
+  height: 80rpx;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  line-height: 80rpx;
+  float: left;
+}
+
+.list-btn{
+  width: 20%;
+  height: 80rpx;
+  line-height: 80rpx;
+  float: left;
+  background-color:#4169E1;
+  color: white;
+  text-align: center; 
+}
